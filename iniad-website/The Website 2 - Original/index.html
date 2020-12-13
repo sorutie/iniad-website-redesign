@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>INIAD Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'-->
+
+  <!-- Slick -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap|Karla:bold" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/hover.css" />
+
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand mr-auto p-2" href="index.html">
+        <img src="img/iniad-logo.png" width="40" height="40" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#menu-news">NEWS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu-courses">COURSES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu-campus">THE CAMPUS</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#menu-cta-section" style="color: #BDCE5E">APPLY NOW!</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Banner section-->
+  <section id="banner">
+    <video width="2000" autoplay loop muted playsinline>
+      <source src="video/INIAD Slideshow.mp4" type="video/mp4" />
+    </video>
+    <div class="banner-content">
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-lg" id="banner-title">
+            <h1>Information Networking for
+              Innovation and Design</h1>
+          </div>
+        </div>
+        <div class="row" id="banner-description">
+          <div class="col-md">
+            <h6>Engineering</h6>
+            <h6>Design</h6>
+            <h6>Business</h6>
+            <h6>Civil System</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Connector 1 -->
+  <div class="container" id="connector-1">
+    <img src="img/Connector 1.png" width="30" height="394" alt="">
+  </div>
+
+  <!-- News section -->
+  <section id="menu-news">
+    <div class="container">
+      <div class="row">
+        <div class="col-md section-title news-color">
+          <h3>News</h3>
+        </div>
+      </div>
+      <div class="row justify-content-end">
+        <div class="col-6 section-description news-color">
+          <h6>What's happening in INIAD?</h6>
+          <h6>Get up-to-date on lastest events and workshops.</h6>
+        </div>
+      </div>
+    </div> <!-- /.container -->
+
+    <!-- Carousel -->
+    <div class="container-fluid">
+      <div id="carouselExample" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
+        <div>
+          <div class="news-item col">
+            <div class="caption">
+              <div class="badge badge-light">Campus Event</div>
+              <h4 class="news-text">INIAD Open Campus</h4>
+              <p class="news-text">The Open Campus of INIAD (Faculty of Information Networking for Innovation and Design)
+                will be held on July 15 and 16, 2017.</p>
+              <a class="caption-cta" href="#">
+                <p>Read More <i class="fa fa-arrow-right"></i></p>
+              </a>
+            </div>
+            <a href="#">
+              <div class="img-container">
+                <img class="top img-fluid mx-auto d-bloc" src="img/news-6.png" alt="slide 1 gradient">
+                <img class="bottom img-fluid mx-auto d-bloc" src="img/news-1.jpg" alt="slide 1">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="news-item-down col">
+            <div class="caption">
+              <div class="badge badge-light">Seminar</div>
+              <h4 class="news-text">Open IoT Education Seminar: To be Active in the IoT Era</h4>
+              <p class="news-text">On March 27, 2018, INIAD (Faculty of Information Networking for Innovation and Design) will hold an
+                “Open IoT Education Seminar” at Akabanedai Campus, Toyo University . </p>
+              <a class="caption-cta" href="#">
+                <p>Read More <i class="fa fa-arrow-right"></i></p>
+              </a>
+            </div>
+            <div class="img-container">
+              <img class="top img-fluid mx-auto d-bloc" src="img/news-6.png" alt="slide 1 gradient">
+              <img class="bottom img-fluid mx-auto d-bloc" src="img/news-2.jpg" alt="slide 1">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="news-item col">
+            <div class="caption">
+              <div class="badge badge-light">Campus Event</div>
+              <h4 class="news-text">Graduation Exhibition of Design Course</h4>
+              <p class="news-text">An exhibition will be held to showcase the graduation projects of 4th year Design students at the Exhibition Room.</p>
+              <a class="caption-cta" href="#">
+                <p>Read More <i class="fa fa-arrow-right"></i></p>
+              </a>
+            </div>
+            <div class="img-container">
+              <img class="top img-fluid mx-auto d-bloc" src="img/news-6.png" alt="slide 1 gradient">
+              <img class="bottom img-fluid mx-auto d-bloc" src="img/news-3.jpg" height="100%" alt="slide 1">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="news-item-down col">
+            <div class="caption">
+              <div class="badge badge-light">Workshop</div>
+              <h4 class="news-text">How to practice active thinking?</h4>
+              <p class="news-text">College students need to acquire essential skillsets for future career. Actice thinking will helps student to practice thingking critically and being active in the class.</p>
+              <a class="caption-cta" href="#">
+                <p>Read More <i class="fa fa-arrow-right"></i></p>
+              </a>
+            </div>
+            <div class="img-container">
+              <img class="top img-fluid mx-auto d-bloc" src="img/news-6.png" alt="slide 1 gradient">
+              <img class="bottom img-fluid mx-auto d-bloc" src="img/news-4.jpg" alt="slide 1">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="news-item col">
+            <div class="caption">
+              <div class="badge badge-light">Seminar</div>
+              <h4 class="news-text">10/13 Graduate Schools' Re-Learning "What Should We Learn in the IoT Era"</h4>
+              <p class="news-text">The Graduate School of Information Collaboration (INIAD) actively supports relearning of working people. </p>
+              <a class="caption-cta" href="#">
+                <p>Read More <i class="fa fa-arrow-right"></i></p>
+              </a>
+            </div>
+            <div class="img-container">
+              <img class="top img-fluid mx-auto d-bloc" src="img/news-6.png" alt="slide 1 gradient">
+              <img class="bottom img-fluid mx-auto d-bloc" src="img/news-5.jpg" alt="slide 1">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="news-item-down col">
+            <div class="caption">
+              <a href="#">
+                <h4 class="news-text">Find Out More <i class="fa fa-arrow-right"></i></h4>
+              </a>
+            </div>
+            <div class="img-container">
+              <img class="bottom img-fluid mx-auto d-bloc" src="img/news-6.jpg" alt="slide 1">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Carousel -->
+
+  </section>
+
+  <!-- Connector 2 -->
+  <div class="container" id="connector-2">
+    <img src="img/Connector 2.png" width="30" height="394" alt="">
+  </div>
+
+  <!-- Courses section -->
+  <section id="menu-courses">
+    <div class="container text-white">
+      <div class="row">
+        <div class="col-md section-title text-white">
+          <h3>Courses</h3>
+        </div>
+      </div>
+      <div class="row justify-content-end">
+        <div class="col-6 section-description">
+          <h6>Team-based practical training provides an opportunity to put information networking into practice.
+            By making the most of the specialized knowledge and skills they acquire in each course, students in a team spanning the four courses receive simulated startup training. </h6>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="courses-intersection">
+          <img src="img/courses-intersection.png" height="50%" alt="courses-intersection">
+        </div>
+      </div>
+
+      <div class="row courses-text justify-content-center">
+
+        <div class="col-5">
+          <button class="hvr-radial-out"><img src="img/icon-engineering.png" height="240px" alt="engineering"></button>
+          <div class="col-9 mx-auto">
+            <h4 class="courses-title">Engineering</h4>
+            <p class="courses-description">Students acquire the skill to support networking technically and implement new information services.</p>
+          </div>
+        </div>
+
+        <div class="col-2">
+        </div>
+        <div class="col-5">
+          <button class="hvr-radial-out"><img src="img/icon-design.png" height="240px" alt="design"></button>
+          <div class="col-9 mx-auto">
+            <h4 class="courses-title">Design</h4>
+            <p class="courses-description">Students acquire the skill to support networking from the viewpoint of designing and giving shape to new information services and products.</p>
+          </div>
+        </div>
+
+        <!-- Force next columns to break to new line -->
+        <div class="w-300"></div>
+
+        <div class="col-5">
+          <button class="hvr-radial-out"><img src="img/icon-business.png" id="course-down" height="200px" alt="business"></button>
+          <div class="col-9 mx-auto">
+            <h4 class="courses-title">Business</h4>
+            <p class="courses-description">Developing managers who can start new businesses through networking</p>
+          </div>
+        </div>
+        <div class="col-2">
+        </div>
+        <div class="col-5">
+          <button class="hvr-radial-out"><img src="img/icon-civil.png" id="course-down" height="200x" alt="civil"></button>
+          <div class="col-9 mx-auto">
+            <h4 class="courses-title">Civil System</h4>
+            <p class="courses-description">Acquiring the skill to build application of ICT to create enriched society and well-being with networking</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+  <!-- Connector 3 -->
+  <div class="container" id="connector-3">
+    <img src="img/Connector 3.png" width="38" alt="">
+  </div>
+
+  <!-- The Campus section -->
+  <section id="menu-campus">
+    <div class="container campus-text">
+      <div class="row">
+        <div class="col-xl section-title">
+          <h3>The Campus</h3>
+        </div>
+      </div>
+      <div class="row justify-content-end">
+        <div class="col-6 section-description">
+          <h6>The campus is equipped with Wi-Fi, and a sufficient bandwidth of Internet connectivity has been allocated to support information technology education, which enables students to bring their PCs and smartphones to use for classes and research.</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid figure">
+      <img id="campus-system" src="img/campus-system.jpg" width="100%" alt="engineering">
+    </div>
+    <div class="campus">
+      <div class="campus-feature">
+        <div class="row justify-content-center">
+          <div class="col-6 align-self-end">
+            <div class="campus-caption">
+              <h4>The Lockers</h4>
+              <p>Personal locker allows students to put personal items, but the key is API control, and it is practical to write an application that uses it-the locker is also an IoT teaching material.</p>
+            </div>
+          </div>
+        </div>
+        <img class="figure-img img-fluid" src="img/campus-locker.jpg" width="100%" alt="locker">
+      </div>
+
+      <div class="campus-feature">
+        <div class="row justify-content-center align-self-end">
+          <div class="col-6">
+            <div class="campus-caption">
+              <h4>The Media Center</h4>
+              <p>The Media Center located in a public area on the first floor of INIAD is a space which focuses on facilitating face-to-face communication by providing media functions that cannot be implemented over the Net.</p>
+            </div>
+          </div>
+        </div>
+        <img src="img/campus-media-center.jpg" width="100%" alt="MC">
+      </div>
+
+      <div class="campus-feature">
+        <div class="row justify-content-center align-self-end">
+          <div class="col-6">
+            <div class="campus-caption">
+              <h4>The INIAD Hall</h4>
+              <p>A hall that can be used for lectures and symposiums.</p>
+            </div>
+          </div>
+        </div>
+        <img src="img/campus-iniad-hall.jpg" width="100%" alt="MC">
+      </div>
+
+      <div class="campus-feature">
+        <div class="row justify-content-center align-self-end">
+          <div class="col-6">
+            <div class="campus-caption">
+              <h4>Exhibition Area</h4>
+              <p>The space is equipped with exhibition furniture such as stands and large screen projectors to support panel, full-scale real demonstrations, and projector exhibitions.</p>
+            </div>
+          </div>
+        </div>
+        <img src="img/campus-exhibition.jpg" width="100%" alt="MC">
+      </div>
+
+      <div class="campus-feature">
+        <div class="row justify-content-center align-self-end">
+          <div class="col-6">
+            <div class="campus-caption">
+              <h4>INIAD Makers' Hub</h4>
+              <p>Makers' Hub with equipment such as 3D printer and laser cutter for rapid prototyping.</p>
+            </div>
+          </div>
+        </div>
+        <img src="img/campus-makers-hub.jpg" width="100%" alt="engineering">
+      </div>
+    </div>
+  </section>
+
+  <!-- Connector 4 -->
+  <div class="container" id="menu-cta-section">
+    <div class="row justify-content-center img-fluid">
+      <img src="img/Connector 4.png" width="190px" alt="">
+    </div>
+  </div>
+
+  <section id="menu-cta-section">
+    <div class="row justify-content-center">
+      <div class="col-7 col-md-6 shadow bg-white rounded">
+        <div class="col-12 col-md-8 cta-text">
+          <h4>Open for registration</h4>
+          <p>The Faculty of Information Networking for Innovation and Design holds an entrance examination to evaluate various types of skills possessed by applicants. Please apply for the entrance examination which is best suited to you.</p>
+          <button type="button" class="btn btn-primary btn-lg text-white shadow cta-button">APPLY NOW!</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer class="footer-section bg-with-black">
+    <div class="footer-top-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="single-fta">
+              <img src="img/iniad-logo.png" width="200" height="200" alt="">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="single-fta">
+
+              <ul class="fta-list">
+                <li><a href="#">
+                    <p>News</p>
+                  </a></li>
+                <li><a href="#">
+                    <p>Courses</p>
+                  </a></li>
+                <li><a href="#">
+                    <p>The Campus</p>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="single-fta">
+
+              <ul class="fta-list">
+                <li><a href="https://www.toyo.ac.jp/en/academics/faculty/iniad/">
+                    <p>Toyo University</p>
+                  </a></li>
+                <li><a href="https://www.iniad.org/en/">
+                    <p>INIAD Website</p>
+                  </a></li>
+                <li><a href="http://chub.iniad.org/">
+                    <p>INIAD cHUB</p>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="single-fta">
+
+              <ul class="fta-list">
+                <li>
+                  <p>Address: 1-7-11, Akabanedai, Kita-ku, Tokyo, 115-0053</p>
+                </li>
+                <li>
+                  <p>Phone: 03-5924-2600</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-4">
+            <div class="fba-copyright">
+              <p>Designed by Salty</p>
+            </div>
+          </div>
+          <!--div class="col-12 col-md-8">
+                  <div class="fba-links">
+                    <ul>
+                      <li><a href="#"><p>About</p></a></li>
+                      <li><a href="#"><p>Contact Us</p></a></li>
+                      <li><a href="#"><p>Term & Conditions</p></a></li>
+                      <li><a href="#"><p>Privacy Policy</p></a></li>
+                      <li><a href="#"><p></p></a></li>
+                    </ul>
+                  </div>
+                </div-->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Javascript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
